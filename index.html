@@ -11,20 +11,18 @@
     <nav class="nav-bar">
         <div class="search-btn">
             <button id="search-icon">🔍</button>
-            <input type="text" id="search-box" placeholder="Search">
-            <button type="button">Go</button>
         </div>
         <div>
             <ul class="header-list">
                 <li><a href="#">U.S.</a></li>
-                <li><a href="#">INTERNATIONAL</a></li>
+                <li><a href="#" class="intern">INTERNATIONAL</a></li>
                 <li><a href="#">CANADA</a></li>
                 <li><a href="#">ESPANOL</a></li>
                 <li><a href="#">中文</a></li>
             </ul>
         </div>
         <div>
-            <button type="button">LOG IN</button>
+            <button type="button" class="log-btn">LOG IN</button>
         </div>
     </nav>
     
@@ -35,10 +33,10 @@
             <p>Today's Paper</p>
         </div>
         <div>
-            <h1>The New York Times</h1>
+            <a href="#"><img src="./assets/New-York-Times-logo.png" alt="NYT logo" class="logo"></a>
         </div>
         <div>
-            <p>S&P 500</p>
+            <p></p>
         </div>
     </div>
     <div class="nav-links">
@@ -81,6 +79,7 @@
     </div>
 
     <hr class="section-divider">
+    <hr>
 
 </header>
     <main>
@@ -91,28 +90,30 @@
                 <div class="left-container">
                     <div class="ven-leader">
                         <div>
-                            <a href="#">
-                                <h3>Trump Says U.S. Is 'in Charge' of Venezuela, While Rubio Stresses Coercing It.</h3>
-                                <p>President Trump again asserted American control over Venezuela, hours after Secretary of State Marco Rubio said the U.S. would 
-                                    only pressure the leadership.
-                                </p>
-                                <span class="min-read">8 MIN READ</span>
-                            </a>
-                        </div>
-                        <hr>
+                            <div>
+                                <a href="#">
+                                    <h3>Trump Says U.S. Is 'in Charge' of Venezuela, While Rubio Stresses Coercing It.</h3>
+                                    <p>President Trump again asserted American control over Venezuela, hours after Secretary of State Marco Rubio said the U.S. would 
+                                        only pressure the leadership.
+                                    </p>
+                                    <span class="min-read">8 MIN READ</span>
+                                </a>
+                            </div>
+                            <hr>
 
-                        <div>
-                            <a href="#">
-                                <h3>Venezuela's New Leader Calls for Dialogue and 'Coexistence' With U.S,</h3>
-                                <p>Acting President Delcy Rodriguez struck a more diplomatic tone than she had on Saturday,
-                                    inviting the U.S. to control weaker states by flexing its military might
-                                </p>
-                                <span class="min-read">3 MIN READ</span>
-                            </a>
+                            <div>
+                                <a href="#">
+                                    <h3>Venezuela's New Leader Calls for Dialogue and 'Coexistence' With U.S,</h3>
+                                    <p>Acting President Delcy Rodriguez struck a more diplomatic tone than she had on Saturday,
+                                        inviting the U.S. to control weaker states by flexing its military might
+                                    </p>
+                                    <span class="min-read">3 MIN READ</span>
+                                </a>
+                            </div>
                         </div>
                         <div class="top-video">
                             <video controls height="300" width="500">
-                                <!-- <source src="./assets/158431_1_00vid-rv-venezuela-strikes-trump_wg_1080p.mp4" type="video/mp4"> -->
+                                <source src="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4" type="video/mp4">
                                 <caption>Shawn Park and Axel Boada</caption>
                             </video>
                         </div>
@@ -158,7 +159,7 @@
                         </div>
                         <div>
                             <figure>
-                                <img src="./assets/04pol-venezuela-maga-01-wvql-threeByTwoMediumAt2X.jpg" alt="Trump" height="400" >
+                                <img src="./assets/04pol-venezuela-maga-01-wvql-threeByTwoMediumAt2X.jpg" alt="Trump" height="300" >
                                 <figcaption>Tierney L. Cross/The New York Times</figcaption>
                             </figure>
                         </div>
@@ -166,7 +167,6 @@
                     <hr>
 
                     <section class="analyse-sect">
-                        
                         <div>
                             <a href="#">
                                 <h2>ANALYSIS</h2>
@@ -720,6 +720,885 @@
             <!-- End of the big long div that contains the left and right divs -->
             </div>
             <hr>
+            <section>
+                <h2>Watch Today's Videos</h2>
+                <div class="today-videos">
+                    <div>
+                        <video controls autoplay muted width="300px" height="500px">
+                            <source src="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4" type="video/mp4">
+                        </video>
+                        <a href="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4"><h3>Why Trump Removed Venezuela's Maduro</h3></a>
+                    </div>
+                    <div>
+                        <video controls width="300px" height="500px">
+                            <source src="./assets/Evergreen_Q32024_wg_480p.mp4" type="video/mp4">
+                        </video>
+                        <a href="./assets/Evergreen_Q32024_wg_480p.mp4">
+                            <h2>WIRECUTTER</h2>
+                            <h3>How We Test Bath Towels</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <video controls width="300px" height="500px">
+                            <source src="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4" type="video/mp4">
+                        </video>
+                        <a href="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4"><h3>'Hard Fork:' Who Is Regulating Data Centers in Outer Space?</h3></a>
+                    </div>
+                    <div>
+                        <video controls width="300px" height="500px">
+                            <source src="./assets/Evergreen_Q32024_wg_480p.mp4" type="video/mp4">
+                        </video>
+                        <a href="./assets/Evergreen_Q32024_wg_480p.mp4">
+                            <h2>OPINION</h2>
+                            <h3>Jamelle Bouie on Venezuela: 'This Is Purely a War of Choice'</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <video controls width="300px" height="500px">
+                            <source src="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4" type="video/mp4">
+                        </video>
+                        <a href="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4">
+                            <h2>COOKING</h2>
+                            <h3>Peanut Butter Noodles</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <section>
+                 <h2>More News</h2>
+                 <!-- Beginning of a two side div -->
+                <div class="more-news">
+                    <!-- Start of the left div -->
+                    <div class="left-news">
+                        <div class="deadly-fire">
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <h3>'No One Is Ready for This': Hiw a Deadly Bar Fire Upended a Swiss Town</h3>
+                                        <p>Crans-Montana, the ski resort where at least 40 people died in a New Year's Day blaze, was 
+                                            struggling to come to terms with the disaster.
+                                        </p>
+                                        <span class="min-read">5 MIN READ</span>
+                                    </a>
+                                </div>
+                                <hr>
+
+                                <div>
+                                    <a href="#">
+                                        <h3>Winter Storms Ease Drought in California, for Now</h3>
+                                        <p>Experts say that it's too early to tell what will happen during the rest of the state's raining 
+                                            season, but that extreme drought is unlikely.
+                                        </p>
+                                        <span class="min-read">3 MIN READ</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./assets/04int-switzerland-fire-01-vgcw-threeByTwoSmallAt2X.jpg" alt="Switzerland fire">
+                                    <figcaption>Sergey Ponomarev for The New York Times</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="nfl-playoffs">
+                            <div>
+                                <a href="#">
+                                    <h3>Steelers Clinch Final N.F.L. Playoff Spot With Win Over Ravens</h3>
+                                    <p>Pittsburgh will face Houston in the wild card round after outlasting Baltimore in a matchup for
+                                        the division title.
+                                    </p>
+                                    <span class="min-read">FROM THE ATHLETIC</span>
+                                </a>
+                            </div>
+                                <div class="divider"></div>
+                            <div>
+                                <a href="#">
+                                    <h3>Robert Heide, Daring Playwright and Warhol Collaborator, Dies at 91</h3>
+                                    <p>He helped create the Off Off Broadway theater scene, wrote and acted in Andy
+                                        Warhol's films and turned his fascination with collectible Americana into books
+                                    </p>
+                                    <span class="min-read">4 MIN READ</span>
+                                </a>
+                            </div>
+                        </div>
+                    <!-- End of left div -->
+                    </div>
+
+                    <!-- Start of right div -->
+                    <div class="sport-news">
+                        <div>
+                            <a href="#">
+                                <h3>Texas Tech Signs First 7-Foot Player in Women's College Basketball</h3>
+                                <span class="min-read">FROM THE ATHLETIC</span>
+                            </a>
+                        </div>
+                        <hr>
+                         <div>
+                            <a href="#">
+                                <h3>Subway and Bus Fare Rises to $3 in New York City on Sunday</h3>
+                                <span class="min-read">3 MIN READ</span>
+                            </a>
+                        </div>
+                        <hr>
+                         <div>
+                            <a href="#">
+                                <h3>Chelsea Scores Last-Minute Goal to Earn Draw vs. Manchester City</h3>
+                                <span class="min-read">FROM THE ATHLETIC</span>
+                            </a>
+                        </div>
+                        <hr>
+                         <div>
+                            <a href="#">
+                                <h3>Francis Patrelle, Champion of the Story Ballet, Dies at 78</h3>
+                                <span class="min-read">5 MIN READ</span>
+                            </a>
+                        </div>
+                        <hr>
+                         <div>
+                            <a href="#">
+                                <h3>Judge Convicted of Obstructing Immigration Agents Resigns as Impeachment Looms</h3>
+                                <span class="min-read">2 MIN READ</span>
+                            </a>
+                        </div>
+                        <hr>
+                         <div>
+                            <a href="#">
+                                <h3>Richard Pollak, Who Edited Magazine That Criticized the Media, Dies at 91</h3>
+                                <span class="min-read">5MIN READ</span>
+                            </a>
+                        </div>
+                    <!-- End of right div -->
+                    </div>
+                    <hr>
+                 <!-- End of the long div containing left and right divs    -->
+                </div>
+            </section>
+            <hr>
+
+            <section>
+                <div class="sports-header">
+                    <h2>The Athletic</h2>
+                    <p>Sports Coverage</p>
+                </div>
+                <!-- Start of a 2 div container -->
+                <div class="sports-coverage">
+                    <!-- Start of the left div content -->
+                    <div class="left-coverage">
+                        <div class="nfl-news">
+                            <div>
+                                <a href="#">
+                                    <h3>Projecting Each N.F.L. Playoff Team's Odds to Win the Super Bowl</h3>
+                                    <p>Our experts also provide a first look at each of the six wild-cards weekend matchups.</p>
+                                </a>
+                            </div>
+                            <hr>
+                            
+                            <div>
+                                <a href="#">
+                                    <h3>Must-See Matchups Headline Opening Round of N.F.L. Playoffs</h3>
+                                    <p>With the bracket set, the league released the dates and times of the Wild Card games.</p>
+                                </a>
+                            </div>
+                            <hr>
+                            
+                            <div>
+                                <a href="#">
+                                    <h3>Falcons Fire Coach Raheem Morris and General Manager Terry Fontenot</h3>
+                                    <p>Atlanta is cleaning house after a disappointing season.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="./assets/tamc-010426-Super-Bowl-odds-projections-1767583788198-threeByTwoSmallAt2X.jpg" alt="Super Bowl">
+                                <figcaption>Michael Reaves/Getty Images</figcaption>
+                            </figure>
+                        </div>
+                    
+                     <!-- End of the left div content -->
+                    </div>
+
+                    <!-- Start of the right div content -->
+                     <div class="mix-news">
+                        <div>
+                            <a href="#">
+                                <h3>Novak Djokovic Steps Away From Professional Tennis Players Association</h3>
+                            </a>
+                        </div>
+                        <hr>
+                        
+                         <div>
+                            <a href="#">
+                                <h3>Panthers Clinch N.F.C. South Title With Falcons' Win</h3>
+                            </a>
+                        </div>
+                        <hr>
+                       
+                         <div>
+                            <a href="#">
+                                <h3>The Colts Are Making a Mistake Bringing Back General Manager Chris Ballard</h3>
+                            </a>
+                        </div>
+                        <hr>
+                        
+                         <div class="play-connect">
+                            <a href="#">
+                                <h3>Play Connections: Sports Edition</h3>
+                            </a>
+                            <img src="./assets/icon_connections-d36a17a7babda7caf1b04cd9df95ba0d.svg" alt="Dice">
+                        </div>
+
+                    <!-- End of right div content -->
+                     </div>
+
+                 <!-- End of the 2 div container -->
+                </div>
+            </section>
+            <hr>
+
+            <!-- Well and Culture/Lifestle sections here -->
+             <section>
+                <h2>WELL</h2>
+                <div class="well-being">
+                    <div>
+                        <a href="#">
+                            <figure>
+                                <img src="./assets/05WELL-CHALLENGE-DAY-1-lede-square640-v6.jpg" alt="health Challenge" width="350px">
+                                <figcaption>Eiko Ojala</figcaption>
+                            </figure>
+                            <h3>Welcome to the 5-Day Brain Health Challenge</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <figure>
+                                <img src="./assets/29WELL-FITNESS-ROUNDUP-GRID-HP-04-mtqk-square640.jpg" alt="fitness tips" width="350px">
+                                <figcaption>Elliot Jerome Brown Jr. for The New York Times</figcaption>
+                            </figure>
+                            <h3>10 Fitness Tips to Help You Get Moving in 2026</h3>
+                            <span class="min-read">4 MIN READ</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <figure>
+                                <img src="./assets/26WELL-NL-YEARENDQUESTIONS-image-square640.jpg" alt="7 questions" width="350px">
+                                <figcaption>Matt Chase</figcaption>
+                            </figure>
+                            <h3>7 Questions to Ask Yourself for a Happier New Year</h3>
+                            <span class="min-read">5 MIN READ</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <figure>
+                                <img src="./assets/WELL-PTSD-DOGS2-square640-v2.png" alt="service dog" width="350px">
+                                <figcaption>Jeff Swensen for The New York Times</figcaption>
+                            </figure>
+                            <h3>The Service Dogs Helping Veterans With PTSD</h3>
+                            <span class="min-read">4 MIN READ</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <figure>
+                                <img src="./assets/22WELL-PARENTAL-FAVORITISM-image-square640-v2.jpg" alt="favorite children" width="350px">
+                                <figcaption>Eleanor Davis</figcaption>
+                            </figure>
+                            <h3>Do Parents Have Favorite Children? Of Course They Do.</h3>
+                            <span class="min-read">5 MIN READ</span>
+                        </a>
+                    </div>
+                </div>
+             </section>
+             <hr>
+
+             <section>
+                <h2>Culture and Lifestle</h2>
+                <div class="culture-lifestyle">
+                    <div class="culture">
+                        <div>
+                            <a href="#">
+                                <h3>How New Year's Eve Became a Mega Holiday for Eastern Europeans</h3>
+                                <p>After Communist leaders suppressed religious holidays, Dec. 31 became a catchall 
+                                    secular holiday.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="xmas-celebrations">
+                            <a href="#">
+                                <img src="./assets/01xp-holidayparties-pmvh-copy-square640-v6.jpg" alt="holiday" width="100%" height="100%">
+                                <div>
+                                    <img src="./assets/01xp-holidayparties-01-tzhg-copy-square640.jpg" alt="new year eve" width="78%" height="34%">
+                                    <img src="./assets/01xp-holidayparties-pmvh-copy-square640-v6.jpg" alt="opening of gifts" width="79%" height="34%">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lifestyle">
+                        <div class="art-life">
+                            <div>
+                                <a href="#">
+                                    <h3>Julie Halston Sees Herself in Dorothy Parker</h3>
+                                    <p>She stole the show in &ldquo;And Just Like That ...,&rdquo; but theater is where
+                                        the actress's heart lies.
+                                    </p>
+                                    <span class="min-read">4 MIN READ</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./assets/11Myten-Halston-smallSquare252.jpg" alt="Julie Halston" height="100px">
+                            </div>
+                        </div>
+                        <div class="art-life">
+                            <div>
+                                <a href="#">
+                                    <h3>Art Gallery Shows to See in January</h3>
+                                    <p>This week is Newly Reviewed, Will Heinrich covers Jana Euler's delightful
+                                        absurdity and more.
+                                    </p>
+                                    <span class="min-read">4 MIN READ</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./assets/01cul-galleries-tcvj-smallSquare252.jpg" alt="art gallery owl" height="100px">
+                            </div>
+                        </div>
+                        <div class="art-life">
+                            <div>
+                                <a href="#">
+                                    <h3>&dollar;650,000 in Pop Star Memorabilia? These Superfans Know Few Limits.</h3>
+                                    <p>For megafans of megastars, obsessive collecting is an emotional, not a financial, investment</p>
+                                    <span class="min-read">5 MIN READ</span>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="./assets/00cul-divamemorabilia-jhfk-smallSquare252.jpg" alt="superfans of megastars" height="100px">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+             </section>
+             <hr>
+
+            <section class="pod-sect">
+                <div class="audio-podcast">
+                    <h2>Audio</h2>
+                    <p>Podcast and narrated articles</p>
+                </div>
+                <div class="podcast">
+                    <div class="audio-listeners">
+                        <div>
+                            <img src="./assets/04thedaily-cover-mvcz-smallSquare252.jpg" alt="cover" width="100%">
+                        </div>
+                        <div>
+                            <a href="#">
+                                <h2>THE DAILY <span>AUDIO</span></h2>
+                                <h3>Inside the U.S. Operation to Oust Venezuela's President</h3>
+                                <span class="min-read"><img src="./assets/play.svg" alt="Play" height="20" width="20">31 MIN LISTEN</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="audio-listeners">
+                        <div>
+                            <img src="./assets/01cannonball-roberta-flack-smallSquare252.png" alt="roberta">
+                        </div>
+                        <div>
+                            <a href="#">
+                                <h2>CANNONBALL <span>AUDIO</span></h2>
+                                <h3>The sexy, Multi-Dimensional Genius of Roberta Flack</h3>
+                                <span class="min-read"><img src="./assets/play.svg" alt="Play" height="20" width="20">37 MIN LISTEN</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="audio-listeners">
+                        <div>
+                            <img src="./assets/02hardfork-resolutions-smallSquare252.png" alt="resolution">
+                        </div>
+                        <div>
+                            <a href="#">
+                                <h2>HARD FORK <span>AUDIO</span></h2>
+                                <h3>Our 2026 Tech Resolutions</h3>
+                                <span class="min-read"><img src="./assets/play.svg" alt="Play" height="20" width="20">59 MIN LISTEN</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="audio-listeners">
+                        <div>
+                            <img src="./assets/04thedaily-cover-mvcz-smallSquare252.jpg" alt="cover">
+                        </div>
+                        <div>
+                            <a href="#">
+                                <h2>REPORTER READS <span>AUDIO</span></h2>
+                                <h3>One Lawyer's Standoff With Trump's Deportation Machine</h3>
+                                <span class="min-read"><img src="./assets/play.svg" alt="Play" height="20" width="20">19 MIN LISTEN</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <section>
+                <div class="games">
+                    <h2>Games</h2>
+                    <p>Daily puzzles</p>
+                </div>
+                <div class="daily-puzzles">
+                    <div class="puzzle-type">
+                        <a href="#">
+                            <h3>Wordle</h3>
+                            <p>Guess the 5-letter word with 6 chances.</p>
+                        </a>
+                        <img src="./assets/alpha-wordle-icon-new-smallSquare252-v3.png" alt="wordle" height="150px">
+                    </div>
+                    
+                    <div class="puzzle-type">
+                        <a href="#">
+                            <h3>Connections</h3>
+                            <p>Group words that share a common thread.</p>
+                        </a>
+                        <img src="./assets/alpha-connections-icon-original-smallSquare252.png" alt="Connections" height="150px">
+                    </div>
+                    <div class="puzzle-type">
+                        <a href="#">
+                            <h3>Pips</h3>
+                            <p>Place every domain in the right spot.</p>
+                        </a>
+                        <img src="./assets/Pips-Icon-smallSquare252.png" alt="pip" height="150px">
+                    </div>
+                    <div class="puzzle-type">
+                        <a href="#">
+                            <h3>Spelling Bee</h3>
+                            <p>How many words can you make with 7 letters.</p>
+                        </a>
+                        <img src="./assets/spelling-bee-logo-nytgames-hi-res-smallSquare252-v4.png" alt="spelling bee" height="150px">
+                    </div>
+                    <div class="puzzle-type">
+                        <a href="#">
+                            <h3>The Crossword</h3>
+                            <p>Get clued in with wordplay, every day.</p>
+                        </a>
+                        <img src="./assets/crossword-logo-nytgames-hires-smallSquare252-v3.png" alt="crossword" height="150px">
+                    </div>
+                    <div class="puzzle-type">
+                        <a href="#">
+                            <h3>The Mini Crosswword</h3>
+                            <p>Solve this bite-sized puzzle in just a few minutes.</p>
+                        </a>
+                        <img src="./assets/alpha-mini-promo-1616527576800-smallSquare252-v4.png" alt="mini" height="150px">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <hr>
+
+            <section>
+                <h2>NEWS</h2>
+                <!-- This is where a 12 div container starts -->
+                <div class="world-news">
+                    <div>
+                        <a href="#"><h2>World News</h2></a>
+                        <a href="#"><img src="./assets/04us-venezuela-day-two-qhvj-threeByTwoSmallAt2X.jpg" alt="Day"></a>
+                        <a href="#"><h3>A Test for Venezuela's New Leader: Solidifying Power, but Pleasing Trump</h3></a>
+                        <a href="#"><h3>Maduro's Capture Shows Trump's Goal to Dominate the Americas</h3></a>
+                        <a href="#"><h3>'No One Is Ready for This': How a Deadly Bar Fire Upended a swiss Town</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>U.S. News</h2></a>
+                        <a href="#"><img src="./assets/04us-venezuela-trump-threats-bvmt-threeByTwoSmallAt2X.jpg" alt="threat"></a>
+                        <a href="#"><h3>Trump Suggests U.S. Action Against More Countries</h3></a>
+                        <a href="#"><h3>Trump's Move for Regime Change in Venezuela Threatens a New MAGA Rift</h3></a>
+                        <a href="#"><h3>Winter Storms Ease Drought in California, for Now</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>U.S. Politics</h2></a>
+                        <a href="#"><img src="./assets/04pol-venezuela-maga-01-wvql-threeByTwoSmallAt2X.jpg" alt="maga"></a>
+                        <a href="#"><h3>Trump's Move for Regime Change in Venezuela Threatens a New MAGA Rift</h3></a>
+                        <a href="#"><h3>Trump Suggests U.S. Action Against More Countries</h3></a>
+                        <a href="#"><h3>Top Democrats Say Trump Has Still Not Briefed Congress on U.S. Military Action in Venezuela</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>New York</h2></a>
+                        <a href="#"><img src="./assets/03us-venezuela-trial-logistics-update-01-hczq-threeByTwoSmallAt2X.jpg" alt="trial"></a>
+                        <a href="#"><h3>Maduro and His Wife to Be Arraigned iin Manhattan Federal Court</h3></a>
+                        <a href="#"><h3>Mamdani Names Housing Leader and Pledges 'Rental Rip-off' Hearings</h3></a>
+                        <a href="#"><h3>Subway and Bus Fare Rises to $3 in New York on Sunday</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Business</h2></a>
+                        <a href="#"><img src="./assets/04insider-maduro-promo-threeByTwoSmallAt2X.jpg" alt="insider"></a>
+                        <a href="#"><h3>Behind the Scenes of Our Nicholas Maduro Front Page</h3></a>
+                        <a href="#"><h3>More People Are Lifting Weights. It's Changing Gym Culture.</h3></a>
+                        <a href="#"><h3>How Kevin 0'Leary Made His 'Marty Supreme' Character More Cutthroat</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Technology</h2></a>
+                        <a href="#"><img src="./assets/00classroom-chatbots-threeByTwoSmallAt2X.png" alt="technology"></a>
+                        <a href="#"><h3>As Schools Embrace A.I. Tools, Skeptics Raise Concerns</h3></a>
+                        <a href="#"><h3>Even the Sky May Not Be the Limit for A.I. Data Centers</h3></a>
+                        <a href="#"><h3>The New Billionaires of the A.I. Boom</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Science</h2></a>
+                        <a href="#"><img src="./assets/03HS-NEANDERTHALS-threeByTwoSmallAt2X.jpg" alt="science"></a>
+                        <a href="#"><h3>The Year in Neanderthals</h3></a>
+                        <a href="#"><h3>In the Arctic, Drones Help Identify Deadly Virus in Whales</h3></a>
+                        <a href="#"><h3>She Wanted to Improve Genetic Medicine</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Obituaries</h2></a>
+                        <a href="#"><img src="./assets/04heide-threeByTwoSmallAt2X.jpg" alt="obituary"></a>
+                        <a href="#"><h3>Robert Heide, Daring Playwright and Warhol Collaborator, Dies at 91</h3></a>
+                        <a href="#"><h3>Francis Patrelle, Champion of the Story Bullet, Dies at 78</h3></a>
+                        <a href="#"><h3>Diane Crump, First Woman to Ride in Kentucky Derby, Dies at 77</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>The Upshot</h2></a>
+                        <a href="#"><img src="./assets/up-rockwell-kent-threeByTwoSmallAt2X.jpg" alt="upshot"></a>
+                        <a href="#"><h3>10-Minute Challenge: An Artist in Greenland</h3></a>
+                        <a href="#"><h3>Flashback: Your Weekly History Quiz, Jan. 3, 2026</h3></a>
+                        <a href="#"><h3>11 Data Points and Discoveries That Stuck With Us in 2025</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Climate and Environment</h2></a>
+                        <a href="#"><img src="./assets/02cli-KarenBuddFalen-01-wphq-smallSquare252.jpg" alt="climate"></a>
+                        <a href="#"><h3>The Trump Administration Approved a Big Lithium Mine. A Top Official's Husband Profited.</h3></a>
+                        <a href="#"><h3>Offshore Wind Projects Challenge Trump Administration's Order to Stop Work</h3></a>
+                        <a href="#"><h3>Answers to Your Antarctica Questions, Part 1</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h3>Education</h3></a>
+                        <a href="#"><img src="./assets/02biz-adviser-threeByTwoSmallAt2X.jpg" alt="education"></a>
+                        <a href="#"><h3>If You're struggling With Student Loans, Here's What to Know for 2026</h3></a>
+                        <a href="#"><h3>As Schools Embrace A.I. Tools, Skeptics Raise Concerns</h3></a>
+                        <a href="#"><h3>Mamdani Reverses Call to End Mayoral Control of Public Schools</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Health</h2></a>
+                        <a href="#"><img src="./assets/06SCI-SPAN-VACCINES-threeByTwoSmallAt2X (1).jpg" alt="vacine"></a>
+                        <a href="#"><h3>Vaccines Are Helping Older People More Than We Know</h3></a>
+                        <a href="#"><h3>With Obamacare's Higher Premiums Come Difficult Decisions</h3></a>
+                        <a href="#"><h3>This Common Infection Was Thought to Affect Only Women. Now Doctors Know Better</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Reader Center</h2></a>
+                        <a href="#"><img src="./assets/01SUM-Year-in-facts-09-threeByTwoSmallAt2X.jpg" alt="reader"></a>
+                        <a href="#"><h3>53 Fascinating Facts of 2025</h3></a>
+                        <a href="#"><h3>2025 Faces Quiz</h3></a>
+                        <a href="#"><h3>A Special Delivery From The New York Times: 1,000 Cookies</h3></a>
+                    </div>
+                <!-- This is where a 12 div container starts -->   
+                </div>
+            </section>
+
+            <section>
+                <h2>OPINION</h2>
+                    <div class="opinion-section">
+                        <div>
+                            <a href="#"><h2>Opinion</h2></a>
+                            <a href="#"><img src="./assets/04gessen-maduro-putin-threeByTwoSmallAt2X-v2.jpg" alt="Maduro and putin"></a>
+                            <a href="#"><h3>Maduro's Ouster Plays Right Into Putin's Hands</h3></a>
+                            <a href="#"><h3>What I Learned in Venezuela</h3></a>
+                            <a href="#"><h3>&lsquo;Arrogant, Dangerous and Illegal&rsquo;: Trump's Motives for the Attack on Venezuela </h3></a>
+                        </div>
+                        <div>
+                            <a href="#"><h2>Opinion Columnists</h2></a>
+                            <a href="#"><img src="./assets/04kristof-vtfl-threeByTwoSmallAt2X.jpg" alt="Opinion Columnists" height="250"></a>
+                            <a href="#"><h3>What I Learned in Venezuela</h3></a>
+                            <a href="#"><h3>Maduro's Ouster Plays Right Into Putin's Hands</h3></a>
+                            <a href="#"><h3>To Trump, on Venezuela: You Break It, You Own It</h3></a>
+                        </div>
+                        <div>
+                            <a href="#"><h2>Editorial</h2></a>
+                            <a href="#"><img src="./assets/18venezuela-editorial-pbkh-threeByTwoSmallAt2X.jpg" alt="editorial"></a>
+                            <a href="#"><h3>Trump's Attack on Venezuela Is Illegal and Unwise</h3></a>
+                            <a href="#"><h3>Trump Is the Jan. 6 President</h3></a>
+                            <a href="#"><h3>The U.S. Must Break China's Chokehold on Our Economy</h3></a>
+                        </div>
+                        <div>
+                            <a href="#"><h2>Guest Essays</h2></a>
+                            <a href="#"><img src="./assets/04jackson-image-threeByTwoSmallAt2X.jpg" alt="flowerlike image of a face"></a>
+                            <a href="#"><h3>We Are in a Constant State of Grief</h3></a>
+                            <a href="#"><h3>Tom Brady Is Not the GOAT</h3></a>
+                            <a href="#"><h3>Whatever Ails You, the Answer Is Dance</h3></a>
+                        </div>
+                        <div>
+                            <a href="#"><h2>Sunday Opinion</h2></a>
+                            <a href="#"><img src="./assets/04met-mamdani-ticktock-01-lkmq-threeByTwoMediumAt2X.jpg" alt="mamdani and wife" height="280"></a>
+                            <a href="#"><h3>Mamdani Represents 21st-Century America</h3></a>
+                            <a href="#"><h3>How Did We Get to Such a Bad Question?</h3></a>
+                            <a href="#"><h3>One Factor Will Decide How Much You Enjoy TV Next Year</h3></a>
+                        </div>
+                    </div>
+            </section>
+
+            <section>
+                <h2>ARTS</h2>
+                <div class="arts-section">
+                    <div>
+                        <a href="#"><h2>Arts</h2></a>
+                        <a href="#"><img src="./assets/04cul-viotti-wlzf-threeByTwoSmallAt2X.jpg" alt="violinist"></a>
+                        <a href="#"><h3>The Opera Star With Heavy-Metal (and Philosophy) Chops</h3></a>
+                        <a href="#"><h3>&dollar;650,000 in Pop Star Memorabilia? These Superfans Know Few Limits.</h3></a>
+                        <a href="#"><h3>How Kevin O'Leary Made His &lsquo;Marty Supreme&rsquo; Character More Cutthroat</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Arts and Design</h2></a>
+                        <a href="#"><img src="./assets/01cul-munter-guggenheim-ftbz-threeByTwoSmallAt2X.jpg" alt="art and design"></a>
+                        <a href="#"><h3>Gabriele Munter, an Overshadowed Pillar of Modern Art, Gets a Spotlight</h3></a>
+                        <a href="#"><h3>Stephen Schwartz Criticizes Kennedy Center, Saying He Won't Host Gala</h3></a>
+                        <a href="#"><h3>Her Nordic Noir Is Belatedly Capturing New York</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Movies</h2></a>
+                        <a href="#"><img src="./assets/31cul-reader-movies-threeByTwoSmallAt2X.jpg" alt="movies"></a>
+                        <a href="#"><h3>The Top Movies of 2025, According to Times Readers</h3></a>
+                        <a href="#"><h3>In &lsquo;Anne Lee,&rsquo;Dance Is the Fuel for a Godly 18th-Century Rave</h3></a>
+                        <a href="#"><h3>Park Chan-wook and the Funny Thing About Stomach-Churning Horror</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Television</h2></a>
+                        <a href="#"><img src="./assets/01cul-cosm-lwcg-threeByTwoSmallAt2X.jpg" alt="basketball arena" height="250"></a>
+                        <a href="#"><h3>Colossal Athletes Fill These Modern Arenas</h3></a>
+                        <a href="#"><h3>On &lsquo;Best Medicine,&rsquo; Josh Charles Has a Heart</h3></a>
+                        <a href="#"><h3>He's Chevy Chase, and He's Still Like That</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Music</h2></a>
+                        <a href="#"><img src="./assets/01cul-puritani-review-qvjm-threeByTwoSmallAt2X.jpg" alt="puritani"></a>
+                        <a href="#"><h3>Review: Singers Come First in the Met Opera's New &lsquo;Puritani&rsquo;</h3></a>
+                        <a href="#"><h3>Violinist on Will Smith's Tour Files Wrongful Termination Lawsuit</h3></a>
+                        <a href="#"><h3>The Musicians We Lost in 2025</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Theater</h2></a>
+                        <a href="#"><img src="./assets/03us-venezuela-carousel-hqgk-square640.jpg" alt="theater image not found" height="290"></a>
+                        <a href="#"><h3>When Sammy Davis Jr. Knocked Out Broadway</h3></a>
+                        <a href="#"><h3>Jules Halston Sees Herself in Dorothy Parker</h3></a>
+                        <a href="#"><h3>A story of Hip-Hop Rehabilitation With the Body as Battleground</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Dance</h2></a>
+                        <a href="#"><img src="./assets/30cul-ann-lee-dance-bjmk-threeByTwoSmallAt2X-v2.jpg" alt="anne lee dance"></a>
+                        <a href="#"><h3>In &lsquo;Anne Lee&rsquo;Dance is the Fuel for a Godly 18th-Century Rave</h3></a>
+                        <a href="#"><h3>Carmen de Lavallade, Dancer Whose Career Spanned the Arts, Dies at 94</h3></a>
+                        <a href="#"><h3>The Rockettes, at 1oo, Need a Kick in the Right Direction</h3></a>
+                    </div>
+                     <div>
+                        <a href="#"><h2>Book Review</h2></a>
+                        <a href="#"><img src="./assets/04tbr-knowles-review-czkf-smallSquare252.jpg" alt="book review"></a>
+                        <a href="#">A Doctor Looks to His Past to Explain &lsquo;Why We Drink Too Much&rsquo;<h3></h3></a>
+                        <a href="#"><h3>The Story of Calamity Jane, in Her Own Wild Words</h3></a>
+                        <a href="#"><h3>She Spent a Night in the Anne Frank House, And Met Ghosts.</h3></a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>LIVING</h2>
+                <div class="living-section">
+                    <div>
+                        <a href="#"><h2>Style</h2></a>
+                        <a href="#"><img src="./assets/01PREDICTIONS-pcqz-threeByTwoSmallAt2X.jpg" alt="style"></a>
+                        <a href="#"><h3>10 Predictions for Life in 2026</h3></a>
+                        <a href="#"><h3>Rama Duwaji Gives &lsquo;Statement Coal&rsquo; New Meaning at Inauguration</h3></a>
+                        <a href="#"><h3>They Want to Influence You to Do ... Nothing</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>Food</h2></a>
+                        <a href="#"><img src="./assets/07Pour-Reconsider-threeByTwoSmallAt2X.jpg" alt="bottle of wine"></a>
+                        <a href="#"><h3>The 10 Wines You Should Be Drinking in 2026</h3></a>
+                        <a href="#"><h3>How We'll Eat in 2026: More Caution, More Crunch</h3></a>
+                        <a href="#"><h3>21 Easy, Healthy Recipes for Busy, Tired People</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>Well</h2></a>
+                        <a href="#"><img src="./assets/02-WELL-ASPIRIN1-threeByTwoSmallAt2X.jpg" alt="aspirin medicine"></a>
+                        <a href="#"><h3>Is IT Healthy to Take Aspirin Every Day?</h3></a>
+                        <a href="#"><h3>Why Exercise Is the Best Thing for your Brain Health</h3></a>
+                        <a href="#"><h3>50 Years Ago, He Was an Olympian. At 80, He's Just as Happy to Finish Last.</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>The New York Times Magazine</h2></a>
+                        <a href="#"><img src="./assets/11mag-Pitt-square640-v2.jpg" alt="man reading a book" height="290"></a>
+                        <a href="#"><h3>On &lsquo;The Pitt,&rsquo; E.R. Doctors Try to Fix This Broken World</h3></a>
+                        <a href="#"><h3>In Ukraine, a New Arsenal of Killer A.I. Drones Is Being Born</h3></a>
+                        <a href="#"><h3>&lsquo;I was Just So Naive&rsquo;: Inside Marjorie Taylor Greene's Break With Trump</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>T Magazine</h2></a>
+                        <a href="#"><img src="./assets/11mag-Pitt-square640-v2.jpg" alt="rubirosa" height="290"></a>
+                        <a href="#"><h3>The Small Parisian Shop That's Become a Retail Phenomenon</h3></a>
+                        <a href="#"><h3>T Magazine's Most-Rated Art and Culture Features From 2025</h3></a>
+                        <a href="#"><h3>Our Favorite Beauty Stories of 2025</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>Travel</h2></a>
+                        <a href="#"><img src="./assets/01trippedup-bedbug-illo-threeByTwoSmallAt2X.jpg" alt="travel"></a>
+                        <a href="#"><h3>Help&#33; Bedbugs Attacked Us, and Our Luxury Hotel Won't Admit It.</h3></a>
+                        <a href="#"><h3>36 HOurs in Cortina d'Ampezzo, Italy</h3></a>
+                        <a href="#"><h3>Phone Searches at the Border Are Up: How to Protect Your Privacy</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>Love</h2></a>
+                        <a href="#"><img src="./assets/02ST-VOWS-LEUKEMIA-01-mghp-threeByTwoSmallAt2X.jpg" alt="taking wedding vows"></a>
+                        <a href="#"><h3>Rushing to Her Father's Hospital Bedside, With a Wedding in Tow</h3></a>
+                        <a href="#"><h3>What's Trending in Weddings for 2026?</h3></a>
+                        <a href="#"><h3>10 Standout Marriage Proposals</h3></a>
+                    </div>
+                    <div>
+                        <a href="#"><h2>Estate</h2></a>
+                        <a href="#"><img src="./assets/02re-skylights-05-pmjz-threeByTwoSmallAt2X.jpg" alt="skylight view"></a>
+                        <a href="#"><h3>Let the Sky Shine</h3></a>
+                        <a href="#"><h3>Can Your Landlord Charge Extra for Building Amenities?</h3></a>
+                        <a href="#"><h3>&dollar;2 Million Homes in London</h3></a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <!-- Start of a two div footer container -->
+                 <a href="#"><img src="./assets/New-York-Times-logo.png" alt="NYT logo"  width="200"></a>
+                <div class="footer-container">
+                    <!-- start left div -->
+                    <div class="left-footer">
+                        <div class="footer-links">
+                            <h2>NEWS</h2>
+                            <a href="#">Home Page</a>
+                            <a href="#">U.S.</a>
+                            <a href="#">World</a>
+                            <a href="#">Politics</a>
+                            <a href="#">New York</a>
+                            <a href="#">Education</a>
+                            <a href="#">Sports</a>
+                            <a href="#">Business</a>
+                            <a href="#">Tech</a>
+                            <a href="#">Science</a>
+                            <a href="#">Weather</a>
+                            <a href="#">The Great Read</a>
+                            <a href="#">Obituaries</a>
+                            <a href="#">Headway</a>
+                            <a href="#">Visual Investigations</a>
+                            <a href="#">The Magazine</a>
+                        </div>
+                         <div class="footer-links">
+                            <h2>ARTS</h2>
+                            <a href="#">Book Review</a>
+                            <a href="#">Best Sellers Book List</a>
+                            <a href="#">Dance</a>
+                            <a href="#">Movies</a>
+                            <a href="#">Music</a>
+                            <a href="#">Pop Culture</a>
+                            <a href="#">Television</a>
+                            <a href="#">Theater</a>
+                            <a href="#">Visual Arts</a>
+                        </div>
+                         <div class="footer-links">
+                            <h2>LIFESTYLE</h2>
+                            <a href="#">Health</a>
+                            <a href="#">Well</a>
+                            <a href="#">Food</a>
+                            <a href="#">Restaurant Reviews</a>
+                            <a href="#">Love</a>
+                            <a href="#">Travel</a>
+                            <a href="#">Style</a>
+                            <a href="#">Fashion</a>
+                            <a href="#">Real Estate</a>
+                            <a href="#">T Magazine</a>
+                        </div>
+                         <div class="footer-links">
+                            <h2>OPINION</h2>
+                            <a href="#">Today's Opinion</a>
+                            <a href="#">Columnists</a>
+                            <a href="#">Editorials</a>
+                            <a href="#">Guest Essays</a>
+                            <a href="#">Op-Docs</a>
+                            <a href="#">Letters</a>
+                            <a href="#">Sunday Opinion</a>
+                            <a href="#">Opinion Video</a>
+                            <a href="#">Opinion Audio</a>
+                        </div>
+                         <div class="footer-links">
+                            <h2>MORE</h2>
+                            <a href="#">Audio</a>
+                            <a href="#">Games</a>
+                            <a href="#">Cooking</a>
+                            <a href="#">Wirecutter</a>
+                            <a href="#">The Athletic</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">Video</a>
+                            <a href="#">Graphics</a>
+                            <a href="#">Trending</a>
+                            <a href="#">Live Events</a>
+                            <a href="#">Corrections</a>
+                            <a href="#">Reader Center</a>
+                            <a href="#">TimesMachine</a>
+                            <a href="#">The Learning Network</a>
+                            <a href="#">School of The NYT</a>
+                            <a href="#">inEducation</a>
+                        </div>
+                    <!-- End left div -->
+                    </div>
+
+                    <!-- Start right div -->
+                    <div class="right-footer">
+                        <h2>ACCOUNT</h2>
+                        <div class="account">
+                            <a href="#"><img src="./assets/NYT.jpeg" alt="NYT logo" height="10" width="30"></a>
+                            <a href="#"><h3>Subscribe</h3></a>
+                        </div>
+                        <div class="account">
+                            <a href="#"><img src="./assets/NYT.jpeg" alt="account" height="10" width="30"></a>
+                            <a href="#"><h3>Manage My Account</h3></a>
+                        </div>
+                        <div class="account">
+                            <a href="#"><img src="./assets/NYT.jpeg" alt="home delivery" height="10" width="30"></a>
+                            <a href=""><h3>Home Delivery</h3></a>
+                        </div>
+                        <div class="account">
+                            <a href="#"><img src="./assets/NYT.jpeg" alt="Subscriptions" height="30" width="30"></a>
+                            <a href="#">Gift Subscriptions</a>
+                        </div>
+                        <a href="#">Group Subscriptions</a>
+                        <a href="#">Gift Articles</a>
+                        <a href="#">Email Newsletters</a>
+                        <hr>
+                        <a href="#">NYT Licensing</a>
+                        <a href="#">Replica Edition</a>
+                        <a href="#">Times Store</a>
+                    <!-- End right div -->
+                    </div>
+                    
+                <!-- End of a two div footer container -->
+                </div>
+                <hr>
+
+                <div class="bottom-footer">
+                    <a href="#">&copy;2026 The York Times Company</a>
+                    <a href="#">NYTCo</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Work with us</a>
+                    <a href="#">Advertise</a>
+                    <a href="#">T Brand Studio</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Terms of Sale</a>
+                    <a href="#">Site Map</a>
+                    <a href="#">Help</a>
+                    <a href="#">Subscriptions</a>
+                </div>
+
+            </footer>
+
             
             
        </section>
