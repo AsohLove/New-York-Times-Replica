@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  min-width: ;
 }
 
 body {
@@ -19,11 +18,18 @@ a {
 
 p {
   color: grey;
+  font-weight: bold;
 }
 
-h2 {
+h2, 
+h3,
+h4 {
   color: black;
-  font-weight: 500;
+  font-weight: bold;
+}
+
+h5 {
+  color: grey;
 }
 
 img,
@@ -35,15 +41,20 @@ video {
 
 figcaption {
   text-align: right;
+  color: black;
+  font-size: 10px;
 }
 
 .min-read {
   color: grey;
+  font-size: 13px;
 }
 
-a > h3 {
+a  h2,
+a h3,
+a h4 {
   color: black;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .nav-bar {
@@ -95,19 +106,18 @@ header {
   border: none;
   padding: 3px;
   background-color: #fff;
-  
 }
 
 .log-btn {
-  background-color: rgb(102, 117, 122);
+  background-color: rgb(102 117 122);
   color: #fff;
   font-weight: bold;
   font-size: 14px;
   padding: 10px;
-
 }
 
-.main-section {
+.main-section,
+.news-feeds {
   margin-top: 10px;
 }
 
@@ -122,7 +132,8 @@ header {
 
 .left-container,
 .left-news,
-.left-coverage {
+.left-coverage,
+.left-footer {
   border-right: 1px solid black;
   gap: 10px;
   padding-right: 15px;
@@ -134,9 +145,16 @@ header {
   margin: 12px 0;
 }
 
+.link-tag {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .divider {
   width: 2px;
   background: #e6e8ec;
+  margin-right: 10px;
 }
 
 .regime-change {
@@ -184,6 +202,7 @@ header {
   display: flex;
   gap: 24px;
   padding-top: 10px;
+  align-items: center;
 }
 
 .tip-offers {
@@ -209,6 +228,7 @@ header {
 .opinion-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
 }
 
 .sport-news,
@@ -228,6 +248,7 @@ header {
 .puzzle-type {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
 .xmas-celebrations a {
@@ -260,12 +281,16 @@ header {
   gap: 16px;
 }
 
+.living {
+  margin-top: 14px;
+}
+
 .arts-section,
 .living-section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  /* gap: 16px; */
+  gap: 16px;
 }
 
 .account {
@@ -273,9 +298,25 @@ header {
   gap: 20px;
 }
 
+.right-footer a h3 {
+  display: inline;
+}
+
+.footer-links a:hover,
+.right-footer a:hover,
+.bottom-footer a:hover {
+  text-decoration: underline;
+}
+
+.right-footer {
+  padding-left: 10px;
+}
+
 .bottom-footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  text-wrap: wrap;
+  font-size: 12px;
 }
 
 .bottom-footer a {
@@ -288,7 +329,8 @@ footer {
 
 .footer-container {
   display: grid;
-  grid-template-columns: 8fr 2fr;
+  grid-template-columns: 9fr 1fr;
+  margin-bottom: 16px;
 }
 
 .footer-container a {
