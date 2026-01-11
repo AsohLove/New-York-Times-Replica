@@ -21,7 +21,7 @@ p {
   font-weight: bold;
 }
 
-h2, 
+h2,
 h3,
 h4 {
   color: black;
@@ -50,7 +50,7 @@ figcaption {
   font-size: 13px;
 }
 
-a  h2,
+a h2,
 a h3,
 a h4 {
   color: black;
@@ -302,6 +302,15 @@ header {
   display: inline;
 }
 
+.footer-container a {
+  color: black;
+  font-size: 16px;
+}
+
+.bottom-footer a {
+  color: grey;
+}
+
 .footer-links a:hover,
 .right-footer a:hover,
 .bottom-footer a:hover {
@@ -319,10 +328,6 @@ header {
   font-size: 12px;
 }
 
-.bottom-footer a {
-  color: grey;
-}
-
 footer {
   margin-bottom: 60px;
 }
@@ -331,9 +336,4 @@ footer {
   display: grid;
   grid-template-columns: 9fr 1fr;
   margin-bottom: 16px;
-}
-
-.footer-container a {
-  color: black;
-  font-size: 16px;
 }
