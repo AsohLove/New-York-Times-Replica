@@ -406,3 +406,55 @@ footer {
   }
 
 }
+
+@media (max-width: 1024px1) and (min-width:768px) {
+  .two-div-container,
+  .more-news,
+  .sports-coverage,
+  .culture-lifestyle {
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+  }
+
+  .nav-bar,
+  .nav-links {
+    display: none;
+  }
+
+  video,
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer-links a {
+    display: none;
+  }
+
+  .right-footer {
+    display: none;
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .analyse-sect,
+  .trump-action,
+  .nfl-playoffs,
+  .deadly-fire,
+  .marty-character {
+    flex-wrap: wrap;
+  }
+
+  .well-being,
+  .today-videos,
+  .missed-items {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+  }
+
+}
