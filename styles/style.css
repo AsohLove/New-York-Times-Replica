@@ -145,7 +145,8 @@ header {
   margin: 12px 0;
 }
 
-.link-tag {
+.link-tag,
+.puzzles {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -337,3 +338,71 @@ footer {
   grid-template-columns: 9fr 1fr;
   margin-bottom: 16px;
 }
+
+@media (max-width: 768px) {
+  .nav-bar,
+  .nav-links,
+  .page-title {
+    display: none;
+  }
+  
+  .two-div-container,
+  .more-news,
+  .sports-coverage,
+  .culture-lifestyle,
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .today-videos,
+  .left-footer,
+  .world-news,
+  .well-being,
+  .opinion-section,
+  .arts-section,
+  .living-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .footer-links a {
+    display: none;
+  }
+
+  .right-footer {
+    display: none;
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .living,
+  .arts,
+  .opinion,
+  .news-feeds {
+    display: none;
+  }
+
+  .daily-puzzles,
+  .podcast,
+  .culture,
+  .left-coverage,
+  .deadly-fire,
+  .nfl-playoffs {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .well-being {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .well-being::-webkit-scrollbar {
+    display: none;       
+  }
+}
+
