@@ -345,7 +345,7 @@ footer {
   .page-title {
     display: none;
   }
-  
+
   .two-div-container,
   .more-news,
   .sports-coverage,
@@ -363,7 +363,7 @@ footer {
   .living-section {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .footer-links a {
     display: none;
   }
@@ -402,7 +402,7 @@ footer {
   }
 
   .well-being::-webkit-scrollbar {
-    display: none;       
+    display: none;     
   }
-}
 
+}
