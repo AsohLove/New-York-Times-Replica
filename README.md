@@ -1,15 +1,16 @@
 # New York Times Replica
 
 
-## Overview
-This is a recreation of a New York Times homepage built using *HTML*, *CSS* and responsive layout design. The project mostly focuses on the page structure (section, div, article, img, video) and is design to work across different devices(mobile, tablet and desktop).
+## :beginner: Overview
+This is a recreation of a New York Times homepage built using **HTML**, **CSS** and **responsive layout design**. The project mostly focuses on the page structure (*section, div, article, img, video*) and is design to work across different devices(*mobile, tablet and desktop*).
 
-### Project Structure
+### :file_folder: Project Structure
 The project follows the frontend structure below;
 
+```
 |
 |--- .github/
-|  |--- workflows/
+| |--- workflows/
 |    |--- linters.yml # Contains the linters code for checking code errors
 |
 |--- index.html # The main HTML file containing the page structure
@@ -21,9 +22,9 @@ The project follows the frontend structure below;
 |
 |---README.md # Project overview and documentation
 |
+```
 
-
-### TecH Stack
+### :star: Tech Stack
 - HTML
 - CSS
 - Flexbox and CSS Grid
@@ -31,7 +32,7 @@ The project follows the frontend structure below;
 - VS Code/ Browser
 
 
-### How to run this project
+### :electric_plug: How to run this project
 1) Clone the repository [here](https://github.com/AsohLove/New-York-Times-Replica.git)
 2) open index.html in a browser
 3) YOu can now view a New York Times homepage replica
@@ -87,12 +88,12 @@ The project follows the frontend structure below;
 #### Mobile view
 ![A mobile view of a section of the NYT homepage](./assets/MobileView.png)
 
+* :rocket: [Deployed page](https://asohlove.github.io/New-York-Times-Replica/)
 
-
-### Authors
+### :fire: Contributors
 
 **Love Asoh and Ojong Yolande**
 
 
-## License
+## :lock: License
 This project is [MIT](./LICENSE) licensed.

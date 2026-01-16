@@ -361,10 +361,18 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  * {
+    box-sizing: border-box;
+  }
   .nav-bar,
   .nav-links,
   .page-title {
     display: none;
+  }
+
+  header {
+    position: relative;
   }
 
   .two-div-container,
@@ -403,6 +411,12 @@ footer {
   .bottom-footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding: ;
+  
   }
 
   .living,
