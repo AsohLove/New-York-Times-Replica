@@ -36,7 +36,7 @@ img,
 video {
   max-width: 100%;
   height: auto;
-  display: block;
+  /* display: block; */
 }
 
 figcaption {
@@ -100,12 +100,14 @@ header {
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 15px;
 }
 
 .link-lists {
   border: none;
   padding: 3px;
   background-color: #fff;
+  font-size: 15px;
 }
 
 .log-btn {
@@ -196,7 +198,6 @@ header {
 }
 
 .russia-ukraine,
-.ny-newmayor,
 .sports-header,
 .audio-podcast,
 .games {
@@ -206,16 +207,29 @@ header {
   align-items: center;
 }
 
+.ny-newmayor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .tip-offers {
   display: flex;
   justify-content: center;
   padding: 20px 0;
 }
 
+.missed-info {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
 .missed-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin-top: 16px;
 }
 
 .headlines {
@@ -282,6 +296,13 @@ header {
   gap: 16px;
 }
 
+.world-news h4,
+.opinion-section h4,
+.arts-section h4,
+.living-section h4 {
+  color: #454545;
+}
+
 .living {
   margin-top: 14px;
 }
@@ -327,6 +348,7 @@ header {
   justify-content: space-between;
   text-wrap: wrap;
   font-size: 12px;
+  margin: 15px 0;
 }
 
 footer {
@@ -364,6 +386,13 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .left-container,
+.left-news,
+.left-coverage,
+.left-footer {
+  border-right: none;
+}
+
   .footer-links a {
     display: none;
   }
@@ -395,13 +424,15 @@ footer {
     gap: 17px;
   }
 
-  .well-being {
+  .well-being,
+  .today-videos {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
   }
 
-  .well-being::-webkit-scrollbar {
+  .well-being::-webkit-scrollbar,
+  .today-videos::-webkit-scrollbar {
     display: none;
   }
 }
