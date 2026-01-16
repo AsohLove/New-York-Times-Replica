@@ -5,7 +5,7 @@
 This is a recreation of a New York Times homepage built using *HTML*, *CSS* and responsive layout design. The project mostly focuses on the page structure (section, div, article, img, video) and is design to work across different devices(mobile, tablet and desktop).
 
 ### Project Structure
-The project follows the front-end structure below;
+The project follows the frontend structure below;
 
 |
 |--- .github/

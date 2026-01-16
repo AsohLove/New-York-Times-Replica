@@ -36,7 +36,6 @@ img,
 video {
   max-width: 100%;
   height: auto;
-  /* display: block; */
 }
 
 figcaption {
@@ -387,11 +386,11 @@ footer {
   }
 
   .left-container,
-.left-news,
-.left-coverage,
-.left-footer {
-  border-right: none;
-}
+  .left-news,
+  .left-coverage,
+  .left-footer {
+    border-right: none;
+  }
 
   .footer-links a {
     display: none;
