@@ -7,7 +7,7 @@ This is a recreation of a New York Times homepage built using **HTML**, **CSS** 
 ### :file_folder: Project Structure
 The project follows the frontend structure below;
 
-```
+```text
 |
 |--- .github/
 | |--- workflows/

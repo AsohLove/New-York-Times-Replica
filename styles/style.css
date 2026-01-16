@@ -361,10 +361,10 @@ footer {
 }
 
 @media (max-width: 768px) {
-
   * {
     box-sizing: border-box;
   }
+
   .nav-bar,
   .nav-links,
   .page-title {
@@ -415,8 +415,6 @@ footer {
     align-items: center;
     text-align: center;
     gap: 8px;
-    padding: ;
-  
   }
 
   .living,
