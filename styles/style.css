@@ -1,3 +1,537 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: grey;
+  font-weight: bold;
+}
+
+h2,
+h3,
+h4 {
+  color: black;
+  font-weight: bold;
+}
+
+h5 {
+  color: grey;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: right;
+  color: black;
+  font-size: 10px;
+}
+
+.min-read {
+  color: grey;
+  font-size: 13px;
+}
+
+a h2,
+a h3,
+a h4 {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.logo-mobile {
+  width: 200px;
+}
+
+.header-list {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+}
+
+.logo {
+  display: block;
+  max-width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  gap: 10px;
+}
+
+.search-btn {
+  background-color: white;
+  border: none;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header-list a.intern {
+  color: black;
+  font-weight: bold;
+}
+
+.page-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 15px;
+}
+
+.link-lists {
+  border: none;
+  padding: 3px;
+  background-color: #fff;
+  font-size: 15px;
+}
+
+.log-btn {
+  background-color: rgb(102 117 122);
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+}
+
+.main-section,
+.news-feeds {
+  margin-top: 10px;
+}
+
+.two-div-container,
+.more-news,
+.sports-coverage,
+.culture-lifestyle {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 20px;
+}
+
+.left-container,
+.left-news,
+.left-coverage,
+.left-footer {
+  border-right: 1px solid black;
+  gap: 10px;
+  padding-right: 15px;
+}
+
+.trump-action {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.link-tag,
+.puzzles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.divider {
+  width: 2px;
+  background: #e6e8ec;
+  margin-right: 10px;
+}
+
+.regime-change {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 12px 0;
+}
+
+.analyse-sect,
+.invade,
+.loyalist-leader,
+.ven-leader,
+.ven-attack,
+.drone-ai,
+.athens-talk,
+.nigeria-crises,
+.choice-awards,
+.mayor-actions,
+.iran-unrest,
+.bat-woman,
+.china-russian,
+.vaccines,
+.marty-character,
+.nick-opinion,
+.mark-gessen,
+.boris-dance,
+.diplomacy,
+.news-missed,
+.deadly-fire,
+.nfl-playoffs,
+.left-coverage,
+.culture {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 20px;
+  align-items: center;
+}
+
+.russia-ukraine,
+.sports-header,
+.audio-podcast,
+.games {
+  display: flex;
+  gap: 24px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.ny-newmayor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tip-offers {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.missed-info {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+.missed-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.headlines {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.today-videos,
+.left-footer,
+.well-being,
+.opinion-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.sport-news,
+.mix-news,
+.nfl-news,
+.lifestyle,
+.footer-links,
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.play-connect,
+.art-life,
+.audio-listeners,
+.puzzle-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.xmas-celebrations a {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.podcast {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pod-sect {
+  padding: 15px 0;
+}
+
+.daily-puzzles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.world-news {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.world-news h4,
+.opinion-section h4,
+.arts-section h4,
+.living-section h4 {
+  color: #454545;
+}
+
+.living {
+  margin-top: 14px;
+}
+
+.arts-section,
+.living-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.account {
+  display: flex;
+  gap: 20px;
+}
+
+.right-footer a h3 {
+  display: inline;
+}
+
+.footer-container a {
+  color: black;
+  font-size: 16px;
+}
+
+.bottom-footer a {
+  color: grey;
+}
+
+.footer-links a:hover,
+.right-footer a:hover,
+.bottom-footer a:hover {
+  text-decoration: underline;
+}
+
+.right-footer {
+  padding-left: 10px;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  text-wrap: wrap;
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+footer {
+  margin-bottom: 60px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .nav-bar,
+  .nav-links,
+  .page-title {
+    display: none;
+  }
+
+  .mobile-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px 0;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .two-div-container,
+  .more-news,
+  .sports-coverage,
+  .culture-lifestyle,
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .today-videos,
+  .left-footer,
+  .world-news,
+  .well-being,
+  .opinion-section,
+  .arts-section,
+  .living-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .left-container,
+  .left-news,
+  .left-coverage,
+  .left-footer {
+    border-right: none;
+  }
+
+  .footer-links a {
+    display: none;
+  }
+
+  .right-footer {
+    display: none;
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .living,
+  .arts,
+  .opinion,
+  .news-feeds,
+  .russukra-war,
+  .ny-newmayor {
+    display: none;
+  }
+
+  .daily-puzzles,
+  .podcast,
+  .culture,
+  .left-coverage,
+  .deadly-fire,
+  .nfl-playoffs,
+  .ven-leader,
+  .regime-change,
+  .trump-action,
+  .analyse-sect,
+  .ven-attack,
+  .athens-talk,
+  .nigeria-crises,
+  .choice-awards,
+  .iran-unrest,
+  .mayor-actions,
+  .bat-woman,
+  .china-russian,
+  .vaccines {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .well-being,
+  .today-videos {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .well-being::-webkit-scrollbar,
+  .today-videos::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .two-div-container,
+  .more-news,
+  .sports-coverage,
+  .culture-lifestyle {
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+  }
+
+  .nav-bar,
+  .nav-links {
+    display: none;
+  }
+
+  video,
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer-links a {
+    display: none;
+  }
+
+  .right-footer {
+    display: none;
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .analyse-sect,
+  .trump-action,
+  .nfl-playoffs,
+  .deadly-fire,
+  .marty-character {
+    flex-wrap: wrap;
+  }
+
+  .well-being,
+  .today-videos,
+  .missed-items {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+  }
 }
