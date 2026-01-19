@@ -482,7 +482,6 @@ footer {
   .today-videos::-webkit-scrollbar {
     display: none;
   }
-
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
