@@ -62,6 +62,14 @@ a h4 {
   align-items: center;
 }
 
+.mobile-navbar {
+  display: none;
+}
+
+.logo-mobile {
+  width: 200px;
+}
+
 .header-list {
   display: flex;
   gap: 14px;
@@ -77,6 +85,11 @@ a h4 {
 
 header {
   gap: 10px;
+}
+
+.search-btn {
+  background-color: white;
+  border: none;
 }
 
 .header-list a {
@@ -98,7 +111,7 @@ header {
 .nav-links {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 13px;
   margin-bottom: 15px;
 }
 
@@ -113,8 +126,10 @@ header {
   background-color: rgb(102 117 122);
   color: #fff;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   padding: 10px;
+  margin-top: 8px;
+  border: none;
 }
 
 .main-section,
@@ -371,6 +386,12 @@ footer {
     display: none;
   }
 
+  .mobile-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   header {
     position: relative;
   }
@@ -420,7 +441,9 @@ footer {
   .living,
   .arts,
   .opinion,
-  .news-feeds {
+  .news-feeds,
+  .russukra-war,
+  .ny-newmayor {
     display: none;
   }
 
@@ -429,7 +452,20 @@ footer {
   .culture,
   .left-coverage,
   .deadly-fire,
-  .nfl-playoffs {
+  .nfl-playoffs,
+  .ven-leader,
+  .regime-change,
+  .trump-action,
+  .analyse-sect,
+  .ven-attack,
+  .athens-talk,
+  .nigeria-crises,
+  .choice-awards,
+  .iran-unrest,
+  .mayor-actions,
+  .bat-woman,
+  .china-russian,
+  .vaccines {
     display: flex;
     flex-direction: column;
     gap: 17px;
@@ -446,6 +482,7 @@ footer {
   .today-videos::-webkit-scrollbar {
     display: none;
   }
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {

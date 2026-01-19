@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>The New York Times International -  Breaking News...</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 <header>
+    <nav class="mobile-navbar">
+        <div>&#9776;</div>
+        <div> 
+            <a href="#"><img src="./assets/New-York-Times-logo.png" alt="NYT logo" class="logo-mobile"></a>
+        </div>
+        <div>&#x1F464</div>
+    </nav>
     <nav class="nav-bar">
         <div class="search-btn">
-            <button id="search-icon">🔍</button>
+            🔍
         </div>
         <div>
             <ul class="header-list">
@@ -112,7 +122,7 @@
                             </div>
                         </div>
                         <div class="top-video">
-                            <video controls autoplay style="width: 100%; height: 100%;">
+                            <video controls autoplay muted style="width: 100%; height: 100%;">
                                 <source src="./assets/WellHook_Desktop_FlexFrame_wg_480p.mp4" type="video/mp4">
                                 <!-- <caption>Shawn Park and Axel Boada</caption> -->
                             </video>
@@ -276,7 +286,7 @@
                             </div>
                         </div>
                         <div>
-                            <video controls height="400" width="600">
+                            <video controls autoplay muted height="400" width="600">
                                 <source src="./assets/158413_1_25-MAG-AI-DRONES_wg_720p.mp4" type="video/mp4">
                             </video>
                         </div>   
@@ -607,15 +617,13 @@
                             <hr>
                         </div>
                            
-                        
                         <div class="vert-divider">
                             <a href="#" class="link-tag">
                                 <h5>JIM DOWNS</h5>
                                 <h3>'Heated Rivalry' Is Gay Culture's Next Frontier</h3>
                                 <span class="min-read">5 MIN READ</span>
                                 <hr>
-                            </a>
-                            
+                            </a>  
                         </div>
                         
                          <div class="vert-divider">
